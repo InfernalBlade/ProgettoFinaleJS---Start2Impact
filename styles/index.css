@@ -47,4 +47,24 @@ button.reset {
   background-color: transparent;
   border: 2px solid #cc00ff;
   color: #cc00ff;
+}
+
+@media only screen and (min-width: 360px) and (max-width: 960px) {
+  body #numero {
+    font-size: 30px;
+  }
+  body h1 {
+    font-size: 18px;
+  }
+  body .container {
+    position: relative;
+    width: 50vmin;
+    background-color: #390053;
+    padding: 100px 40px;
+    border-radius: 9px;
+  }
+  .buttons button {
+    margin: 10px;
+    width: 100px;
+  }
 }/*# sourceMappingURL=index.css.map */
