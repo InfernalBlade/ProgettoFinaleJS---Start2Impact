@@ -12,7 +12,7 @@ body {
 body h1 {
   text-align: center;
   font-family: "Roboto Mono", monospace;
-  font-size: 80px;
+  font-size: 40px;
   color: #ffffff;
 }
 body .container {
@@ -25,7 +25,7 @@ body .container {
 
 .buttons {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   margin-top: 80px;
 }
 .buttons button {
@@ -43,13 +43,16 @@ button.dec, button.inc {
   color: #ffffff;
 }
 
-button.reset {
+button.res {
   background-color: transparent;
   border: 2px solid #cc00ff;
   color: #cc00ff;
 }
 
 @media only screen and (min-width: 360px) and (max-width: 960px) {
+  body .reset {
+    font-size: 18px;
+  }
   body #numero {
     font-size: 30px;
   }
@@ -63,8 +66,12 @@ button.reset {
     padding: 100px 40px;
     border-radius: 9px;
   }
+  .res {
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+  }
   .buttons button {
-    margin: 10px;
-    width: 100px;
+    min-width: 10px;
   }
 }/*# sourceMappingURL=index.css.map */

@@ -11,7 +11,7 @@ body{
     h1 {
         text-align: center;
         font-family: "Roboto Mono", monospace;
-        font-size: 80px;
+        font-size: 40px;
         color: #ffffff;
     }
 
@@ -26,7 +26,7 @@ body{
 
 .buttons {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     margin-top: 80px;
     button{
         width: 130px;
@@ -43,7 +43,8 @@ button.dec,button.inc{
     background-color: #cc00ff;
     color: #ffffff;
 }
-button.reset{
+
+button.res{
     background-color: transparent;
     border: 2px solid #cc00ff;
     color: #cc00ff;
@@ -52,6 +53,9 @@ button.reset{
 
 @media only screen and (min-width:360px) and (max-width:960px){
     body{
+        .reset{
+            font-size: 18px;
+        }
         #numero{
             font-size: 30px;
         }
@@ -66,11 +70,12 @@ button.reset{
             border-radius: 9px;
         }
     }
-    
+    .res{
+        width: fit-content;
+    }
     .buttons{
         button{
-            margin: 10px;
-            width: 100px;
+            min-width: 10px;
         }
         
     }
