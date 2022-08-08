@@ -2,6 +2,8 @@
 
 Progetto JS per Start2Impact. Un contatore che permette di aggiungere, sottrarre e resettare i numeri a schermo.
 
+<img src="https://i.imgur.com/OCs8lra.png" width="100%">
+
 ## Documentation
 ## Demo
 
