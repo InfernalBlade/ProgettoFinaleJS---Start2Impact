@@ -13,6 +13,7 @@ https://dancing-crostata-1b12cd.netlify.app
 - **Aggiungi Numero** con il tasto **+**
 - **Rimuovi Numero** con il tasto **-**
 - **Resetta il contatore** con il tasto **RESET**
+- *Puoi ora decidere se contare o no i numeri negativi*
 - _App utilizzabile anche da mobile_
 
 ## Color Reference
