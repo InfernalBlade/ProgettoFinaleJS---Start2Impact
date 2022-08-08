@@ -3,12 +3,10 @@
 Progetto JS per Start2Impact. Un contatore che permette di aggiungere, sottrarre e resettare i numeri a schermo.
 
 ## Documentation
+## Demo
 
-#### Funzionalità base
-
-**Aggiungi Numero** con il tasto **+**  
-**Rimuovi Numero** con il tasto **-**  
-**Resetta il contatore** con il tasto **RESET**
+Di seguito, il link per provare l'app
+https://dancing-crostata-1b12cd.netlify.app
 
 ## Features
 
