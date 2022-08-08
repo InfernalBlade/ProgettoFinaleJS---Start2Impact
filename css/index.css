@@ -43,10 +43,16 @@ button.dec, button.inc {
   color: #ffffff;
 }
 
-button.res {
+button.res, button.set {
   background-color: transparent;
   border: 2px solid #cc00ff;
   color: #cc00ff;
+}
+
+button.set {
+  margin-top: 50px;
+  width: 10%;
+  height: 5vh;
 }
 
 @media only screen and (min-width: 360px) and (max-width: 960px) {
@@ -63,15 +69,17 @@ button.res {
     position: relative;
     width: 50vmin;
     background-color: #390053;
-    padding: 100px 40px;
     border-radius: 9px;
   }
-  .res {
-    width: -webkit-fit-content;
-    width: -moz-fit-content;
-    width: fit-content;
+  .buttons button.inc, .buttons button.dec {
+    width: 50px;
   }
-  .buttons button {
-    min-width: 10px;
+  .buttons button.res {
+    width: 70px;
+  }
+  button.set {
+    margin-top: 10px;
+    width: 100px;
+    height: 5vh;
   }
 }/*# sourceMappingURL=index.css.map */
