@@ -25,8 +25,13 @@ function decrement(){
 }
 
 function reset(){
-    valoreIniziale = 0;
-    containerNumeri.textContent = valoreIniziale;
+    if(valoreIniziale===0){
+        alert("Il valore è 0!")
+    }else{
+        valoreIniziale = 0;
+        containerNumeri.textContent = valoreIniziale;
+    }
+    
 }
 
 incremento.addEventListener("click", increment);
