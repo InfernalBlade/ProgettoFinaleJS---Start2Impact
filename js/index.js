@@ -15,11 +15,11 @@ function increment(){
 
 function decrement(){
     if(valoreIniziale===0){
-        valoreIniziale--;
-        containerNumeri.textContent = valoreIniziale;
+        alert("Il valore è 0!")
     }
     else{
-        alert("Il valore è 0!")
+        valoreIniziale--;
+        containerNumeri.textContent = valoreIniziale;
     }
     
 }
