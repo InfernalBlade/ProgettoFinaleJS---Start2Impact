@@ -49,11 +49,15 @@ function settings(){
         impValoreMinore=false;
         set.style.backgroundColor = "";
         set.style.color = "";
+        valoreIniziale = 0;
+        containerNumeri.textContent = valoreIniziale;
 
     }else if (impValoreMinore==false){
         impValoreMinore=true;
         set.style.backgroundColor = "#cc00ff";
         set.style.color = "white";
+        valoreIniziale = 0;
+        containerNumeri.textContent = valoreIniziale;
     }
 
 }
