@@ -14,8 +14,14 @@ function increment(){
 }
 
 function decrement(){
-    valoreIniziale--;
-    containerNumeri.textContent = valoreIniziale;
+    if(valoreIniziale===0){
+        valoreIniziale--;
+        containerNumeri.textContent = valoreIniziale;
+    }
+    else{
+        alert("Il valore è 0!")
+    }
+    
 }
 
 function reset(){
