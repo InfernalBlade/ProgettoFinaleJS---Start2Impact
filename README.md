@@ -25,7 +25,7 @@ Progetto JS per Start2Impact. Un contatore che permette di aggiungere, sottrarre
 | Main Container   | #390053 |
 | Buttons Color    | #cc00ff |
 
-## Tech Stack
+## Technologies
 
 **FrontEnd:** HTML, SCSS
 
