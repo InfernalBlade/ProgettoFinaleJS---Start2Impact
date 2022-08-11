@@ -1,5 +1,4 @@
 //Dichiarazione variabili del contenitore dei numeri e del valore iniziale del numero da contare
-let containerNumeri = document.querySelector("numero");
 let valoreIniziale = 0;
 
 /* Aggiunta numero contatore */
