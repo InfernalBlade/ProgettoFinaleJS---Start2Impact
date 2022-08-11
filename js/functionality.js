@@ -2,6 +2,12 @@
 function increment(){
     valoreIniziale++;
     counterText.textContent = valoreIniziale;
+
+    if(valoreIniziale>0){
+        counterText.style.color=("magenta");
+    }else if (valoreIniziale===0){
+        counterText.style.color= ("white");
+    }
 }
 
 function decrement(){
@@ -12,6 +18,13 @@ function decrement(){
         valoreIniziale--;
         counterText.textContent = valoreIniziale;
     }
+
+    if(valoreIniziale<0){
+        counterText.style.color=("red");
+    }else if (valoreIniziale===0){
+        counterText.style.color= ("white");
+    }
+        
     
 }
 
