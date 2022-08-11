@@ -1,42 +1,29 @@
 //Dichiarazione variabili del contenitore dei numeri e del valore iniziale del numero da contare
-let containerNumeri = document.getElementById("numero");
+let containerNumeri = document.querySelector("numero");
 let valoreIniziale = 0;
 
+/* Aggiunta numero contatore */
+let mainContainer = document.querySelector(".container");
+let counterText = document.createElement("h2");
+counterText.classList.add("numero");
+counterText.innerText = "0";
+mainContainer.prepend(counterText);
 
-//Dichiarazione variabili incremento e decremento usate nelle funzioni per assegnare l'azione ai pulsanti +/- & reset
-let incremento = document.querySelector(".inc");
-let decremento = document.querySelector(".dec");
-let resetto = document.querySelector(".res");
+/* Aggiunta pulsanti tramite codice Javascript */
+let containerPulsanti = document.querySelector(".buttons");
 
-//Funzioni di incremento, decremento & reset
-function increment(){
-    valoreIniziale++;
-    containerNumeri.textContent = valoreIniziale;
-}
-
-function decrement(){
-    if(valoreIniziale===0 && impValoreMinore==false){
-        alert("You cannot count negative numbers! Active it first using the button below!")
-    }
-    else{
-        valoreIniziale--;
-        containerNumeri.textContent = valoreIniziale;
-    }
-    
-}
-
-function reset(){
-    if(valoreIniziale===0){
-        alert("The value is 0, you cannot reset it!")
-    }else{
-        valoreIniziale = 0;
-        containerNumeri.textContent = valoreIniziale;
-    }
-    
-}
-
-incremento.addEventListener("click", increment);
-decremento.addEventListener("click", decrement);
-resetto.addEventListener("click", reset);
+let btnAdd = document.createElement("button");
+btnAdd.classList.add("inc")
+let btnRem = document.createElement("button");
+btnRem.classList.add("dec")
+let btnRes = document.createElement("button");
+btnRes.classList.add("res")
 
 
+btnAdd.innerHTML = "+";
+btnRem.innerHTML = "-";
+btnRes.innerHTML = "RESET";
+
+containerPulsanti.appendChild(btnRem);
+containerPulsanti.appendChild(btnRes);
+containerPulsanti.appendChild(btnAdd);

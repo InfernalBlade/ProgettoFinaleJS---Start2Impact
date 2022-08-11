@@ -9,7 +9,7 @@ body {
   display: grid;
   place-items: center;
 }
-body h1 {
+body h1, body h2 {
   text-align: center;
   font-family: "Roboto Mono", monospace;
   font-size: 40px;
@@ -57,13 +57,13 @@ button.set {
 }
 
 @media only screen and (min-width: 360px) and (max-width: 960px) {
-  body .reset {
+  body .res {
     font-size: 18px;
   }
-  body #numero {
+  body .numero {
     font-size: 30px;
   }
-  body h1 {
+  body h1, body h2 {
     font-size: 18px;
   }
   body .container {
@@ -72,7 +72,7 @@ button.set {
     background-color: #390053;
     border-radius: 9px;
   }
-  .buttons button.inc, .buttons button.dec {
+  .buttons button {
     width: 50px;
   }
   .buttons button.res {

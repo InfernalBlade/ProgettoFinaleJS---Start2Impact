@@ -8,7 +8,7 @@ body{
     background-color: #13162b;
     display: grid;
     place-items: center;
-    h1 {
+    h1, h2 {
         text-align: center;
         font-family: "Roboto Mono", monospace;
         font-size: 40px;
@@ -59,13 +59,14 @@ button.set{
 
 @media only screen and (min-width:360px) and (max-width:960px){
     body{
-        .reset{
+        .res{
             font-size: 18px;
         }
-        #numero{
+        .numero{
             font-size: 30px;
         }
-        h1{
+        
+        h1, h2{
             font-size: 18px;
         }
         .container{
@@ -76,7 +77,7 @@ button.set{
         }
     }
     .buttons{
-        button.inc, button.dec{
+        button{
             width: 50px;
         }
         button.res{
