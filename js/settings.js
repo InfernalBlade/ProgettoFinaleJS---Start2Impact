@@ -12,14 +12,14 @@ function negativeNumbers(){
         set.style.backgroundColor = "";
         set.style.color = "";
         valoreIniziale = 0;
-        containerNumeri.textContent = valoreIniziale;
+        counterText.textContent = valoreIniziale;
 
     }else if (impValoreMinore==false){
         impValoreMinore=true;
         set.style.backgroundColor = "#cc00ff";
         set.style.color = "white";
         valoreIniziale = 0;
-        containerNumeri.textContent = valoreIniziale;
+        counterText.textContent = valoreIniziale;
     }
 
 }
